@@ -1,0 +1,11 @@
+@import url(./assets/css/icons/icomoon/styles.css);
+@import url(./assets/css/bootstrap.css);
+@import url(./assets/css/core.css);
+@import url(./assets/css/components.css);
+@import url(./assets/css/colors.css);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}

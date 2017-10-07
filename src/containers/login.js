@@ -60,7 +60,7 @@ class LoginPage extends Component {
     facebookSignin(){
         
         var provider = new firebase.auth.FacebookAuthProvider();
-        provider.addScope('user_likes');
+        provider.addScope('email');
         // firebase.auth().languageCode = 'fr_FR';
         provider.setCustomParameters({
           'display': 'popup'
